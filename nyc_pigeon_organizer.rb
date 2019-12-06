@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
             final_hash[pigs][color] << col.to_s
           else 
             new_arr = []
-            new_arr << col
+            new_arr << col.to_s
             final_hash[pigs][color] = col.to_s
           end
         else 
